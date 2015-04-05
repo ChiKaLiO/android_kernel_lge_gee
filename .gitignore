@@ -44,6 +44,10 @@ modules.builtin
 /System.map
 /Module.markers
 /Module.symvers
+/compare
+/copyzip.sh
+/makeboot.sh
+/patch
 
 #
 # Debian directory (make deb-pkg)
@@ -81,6 +85,7 @@ GRTAGS
 GSYMS
 GTAGS
 
+*.rej
 *.orig
 *~
 \#*#
